@@ -1,0 +1,30 @@
+{
+  "name": "todo-login",
+  "version": "1.0.0",
+  "description": "A full stack todo application in Javascript with authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxmug/todo-login.git"
+  },
+  "keywords": [
+    "TODO",
+    "JavaScript",
+    "full",
+    "stack",
+    "node",
+    "oath",
+    "social",
+    "accounts",
+    "login"
+  ],
+  "author": "Pax Mugisha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paxmug/todo-login/issues"
+  },
+  "homepage": "https://github.com/paxmug/todo-login#readme"
+}
