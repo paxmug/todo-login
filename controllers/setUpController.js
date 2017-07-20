@@ -1,6 +1,6 @@
 var Todos = require("../models/todoModel");
 
-module.exports = function(){
+module.exports = function(app){
     app.get("/api/setupTodos", function(req, res){
         // seed database
         var starterTodos = [
@@ -22,6 +22,9 @@ module.exports = function(){
                 isDone : false,
                 hasAttachment: false
             }
-        ]
+        ];
+        Todos.create(starterTodos, function(err, results){
+            res.send(results);
+        })
     })
 }
