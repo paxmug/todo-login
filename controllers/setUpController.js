@@ -25,6 +25,6 @@ module.exports = function(app){
         ];
         Todos.create(starterTodos, function(err, results){
             res.send(results);
-        })
+        });
     })
 }
