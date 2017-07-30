@@ -11,7 +11,7 @@ var password = process.env.mongoDBPassword;
 
 var connectionString = "mongodb://" + username + ":" + password + "@ds161012.mlab.com:61012/todo-login";
 
-app.use("/assets", express.static(__dirname + "/public"));
+app.use("/", express.static(__dirname + "/public"));
 
 app.set("view engine", "ejs");
 
